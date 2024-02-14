@@ -1,0 +1,38 @@
+@extends("frontend.layout_trang_chu")
+@section("append-du-lieu")
+    <main>
+        <form action="" method="POST">
+            <div class="login1">
+                <h1>ĐĂNG NHẬP</h1>
+                <div class="field-wrap"> 
+                    <label>Tên đăng nhập</label>
+                    <input type="user" id="username" class="text3" placeholder=""> 
+                </div>
+                <div class="field-wrap"> 
+                    <div>  
+                        <label>Mật khẩu</label>
+                        <input type="password" id="password" class="text3" placeholder="">
+                    </div>
+                </div>
+                <div>
+                    <p class="forgot"><a href="#">Quên mật khẩu?</a></p>
+                </div>   
+                <div class="button">
+                    <a href="./dangnhap.html">
+                        <button type="button">Đăng nhập</button>
+                    </a>
+                </div>
+                <div class="text1">
+                    Chưa có tài khoản?
+                </div>
+                <div class="button">
+                    <a href="./dangky.html">
+                        <button type="button">Đăng ký</button>
+                    </a>
+                </div>
+            </div>    
+        </form>
+    </main>
+@endsection
+
+        

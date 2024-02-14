@@ -1,0 +1,298 @@
+main{ 
+    display: flex;
+}
+
+.menu-left{
+    width: 22%;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+}
+
+.menu .title{
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px 5px 0 0;
+}
+
+.menu ul{
+    border: 1px solid #ccc;
+    border-radius: 0 0 5px 5px;
+    border-top: 0;
+}
+
+.menu ul li a{
+    display: block;
+    text-decoration: none;
+    font-size: 17px;
+    color: #282828;
+    padding: 15px;
+}
+
+.menu ul li a:hover{
+    color: red;
+}
+
+.filter{
+    margin-top: 20px;
+}
+
+.filter ul li{
+    padding: 10px 10px 0px 10px;
+    font-size: 16px;
+    line-height: 40px;
+    display: flex;
+}
+
+/* .filter ul li input[type="checkbox"]{
+    display: none;
+} */
+
+.filter ul li label{
+    /* position: relative; */
+    /* padding-left: 24px; */
+    /* display: block; */
+    padding-left: 5px;
+    cursor: pointer;
+}
+
+/* .filter ul li label::before{
+    content: "";
+    display: block;
+    width:15px;
+    height: 15px;
+    border: 1px solid #828282;
+    border-radius: 3px;
+    position: absolute;
+    left:0;
+    top: 9px;
+}
+
+.filter ul li input[type="checkbox"]:checked + label::after{
+    content:"";
+    display: block;
+    width: 6px;
+    height: 8px;
+    border-bottom: 2px solid red;
+    border-right: 2px solid red;
+    position: absolute;
+    left:5px;
+    top:10px;
+    transform: rotate(45deg);
+}
+
+.filter ul li input[type="checkbox"]:checked + label::before{
+    border: 1px solid blue;
+} */
+
+.content-right{
+    width: 78%;
+    margin-left: 30px;
+}
+
+.category-name{
+    padding-left: 321.5px;
+    margin-bottom: 31px;
+    background-image: linear-gradient(120deg, #ff9c00 0%, #ec1f1f 50%, #ff9c00 100%);
+    border-radius: 5px;
+}
+
+.content-right .products{
+    width: 100%;
+    display: flex;
+}
+
+.products .info{
+    display: flex;
+    width: calc(100%/3);
+    flex-wrap: wrap;
+    margin-right: 0;
+}
+
+.products .info img{
+    width: 300px;
+    height: 300px;
+    margin-bottom: 10px;
+    transition: 0.5s;
+}
+
+.products .info img:hover{
+    transform: scale(1.2);
+}
+
+.products .desc{
+    width: 300px;
+    margin-bottom: 21px;
+}
+
+.products h3{
+    text-align: center;
+    /* padding-left: 32px;
+    margin-top: 14px;
+    font-size: 15px; */
+}
+
+.products .price{
+    margin: 5px -15px 4px 0px;
+}
+
+.products .ratingresult{
+    padding: 5px 8px 4px 83px;
+}
+
+.info .button{
+    text-align: center;
+}
+
+.info .button button{
+    font-size: 15px;
+    padding: 5px 10px;
+    background-color: #65ff003b;
+    border: 0;
+    border-radius: 5px;
+}
+
+.button button:hover{
+    border: 1px solid red;
+}
+
+.paginate{
+    margin-top: -10px;
+    margin-bottom: 10px;
+    margin-right: 290px;
+    display: flex;
+    justify-content: center;
+}
+
+.paginate ul{
+    display: flex;
+}
+
+.paginate ul li i:hover, .paginate ul li a:hover{
+    color: red;
+}
+
+.paginate ul li a{
+    display: block;
+    font-size: 18px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    text-decoration: none;
+}
+
+.paginate ul li i{
+    display: block;
+    font-size: 18px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    text-decoration: none;
+}
+
+.iframe{
+    margin-top: -20px;
+}
+
+#goto-top-page {
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    z-index: 100;
+    background: rgba(0, 0, 0, .2);
+    color: #fff;
+    font-size: 18px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    cursor: pointer;
+    transition-duration: .2s;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+footer {
+    width: 1200px;
+    display: flex;
+}
+
+footer .about{
+    width: calc(100%/5);
+}
+
+footer h3.title{
+    margin-bottom: 15px;
+}
+
+footer ul li{
+    margin-bottom: 15px;
+}
+
+footer .about ul li a{
+    font-size: 16px;
+}
+
+@media (min-width: 576px) and (max-width: 1200px){
+    .logo{
+        width: 250px;
+        height: 60px;
+    }
+
+    .login{
+        margin-left: 20px;
+    }
+    
+    .search-header{
+        margin-left: 90px;
+    }
+
+    nav{
+        margin-left: 32px;
+    }
+
+    .menu_main > li > a{
+        display: block;
+        text-decoration: none;
+        font-size: 17px;
+        color: white;
+        text-transform: uppercase;
+        padding: 13px 14px;
+        text-align: center;
+    }
+
+    .slider{
+        margin-left: 32px;
+    }
+
+    .menu-left{
+        margin-left: -148px;
+    }
+
+    .info .button{
+        padding-left: 550px;
+    }
+
+    footer{
+        margin-left: 32px;
+    }
+
+    .button{
+        margin-left: -550px;
+    }
+
+    .paginate{
+        margin-left: -123px;
+    }
+}
+
+
+
+

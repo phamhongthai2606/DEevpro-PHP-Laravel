@@ -1,0 +1,188 @@
+main{
+  margin-bottom: 15px;
+}
+
+.login1 {
+  border: 1px solid red;
+  border-radius: 10px;
+  background: white;
+  padding: 40px;
+  padding-top: 5px;
+  max-width: 600px;
+  width:100%;
+  margin: auto;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 415px;
+}
+
+.login1, .login1 * {
+  box-sizing: border-box;
+}
+
+.login1 a {
+  text-decoration: none;
+  color: blue;
+  transition: .5s ease;
+  margin-left: -15px;
+  margin-top: -10px;
+  font-size: 18px;
+}
+
+.login1 h1 {
+  text-align: center;
+  color: black;
+  font-weight: 300;
+  margin-bottom: 15px;
+}
+
+.login1 input, .login1 textarea {
+  font-size: 22px;
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding: 5px 10px;
+  background: none;
+  background-image: none;
+  border: 1px solid #a0b3b0;
+  color: black;
+  border-radius: 10px;
+  transition: border-color .25s ease, box-shadow .25s ease;
+}
+
+.login1 input:focus, .login1 textarea:focus {
+  outline: 0;
+  border-color: #f40606;
+}
+
+.field-wrap {
+  margin-bottom: 15px;
+}
+
+.field-wrap label{
+  display: block;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.login1 .forgot {
+  text-align: right;
+}
+
+.login1 .register {
+  margin-top: -25px;
+  padding-right: 0px;
+  text-align: right;
+}
+
+.text3 {
+  color: red;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.button{
+  text-align: center;
+}
+
+.button button{
+  font-size: 22px;
+  padding: 5px 10px;
+  background-color: chartreuse;
+  border: 0;
+  border-radius: 5px;
+  /* margin-bottom: 5px; */
+  /* margin-left: 534px; */
+}
+
+.button button:hover{
+  border: 1px solid red;
+}
+
+.login1 .text1{
+  text-align: center;
+  font-size: 18px;
+  margin-top: 5px;
+  margin-bottom: 5px;  
+}
+
+.form-register{
+  max-width: 600px;
+  box-sizing: border-box;
+  margin: 100px auto;
+  box-shadow: 0 0 5px #ccc;
+  border-radius: 5px;
+  padding: 30px;
+}
+
+.row{
+  margin-bottom: 15px;
+}
+
+.row label{
+  display: block;
+  width: 100%;
+  margin-bottom: 5px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.row .form-control{
+  width: 100%;
+  height: 33px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.error{
+  color: red;
+  margin: 0;
+}
+
+@media (min-width: 576px) and (max-width: 1200px){
+  .logo{
+      width: 250px;
+      height: 60px;
+  }
+
+  .login{
+      margin-left: 20px;
+  }
+  
+  .search-header{
+      margin-left: 90px;
+  }
+
+  nav{
+      margin-left: 32px;
+  }
+
+  .menu_main > li > a{
+      display: block;
+      text-decoration: none;
+      font-size: 17px;
+      color: white;
+      text-transform: uppercase;
+      padding: 13px 14px;
+      text-align: center;
+  }
+
+  .slider{
+      margin-left: 32px;
+  }
+
+  main{
+      margin-left: -150px;
+  }
+
+  .button button{
+    margin-left: 534px;
+  }
+
+  footer{
+      padding-top: 15px;
+      margin-left: 32px;
+  } 
+}
+

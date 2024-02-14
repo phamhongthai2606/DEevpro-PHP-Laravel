@@ -1,0 +1,860 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>HT Shop</title>
+    <link rel="shortcut icon" href="./image/favicon.ico">
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel='stylesheet' type='text/css' media='screen' href='./css/bootstrap.min.css'>
+    <link rel="stylesheet" type='text/css' media='screen' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css'/>
+    <link rel="stylesheet" type='text/css' href="./slick/slick.css">
+    <!-- css -->
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" href="./css/trangchu.css">
+    <link rel="stylesheet" href="./css/danhmucsanpham.css">
+    <!-- js -->
+</head>
+<body id="#top">
+    <div class="container">
+        <header>
+            <div class="content">
+                <div class="col-3"> 
+                    <div>
+                        <a href="./index.html">
+                            <img class="logo" src="./image/logo.jpg">
+                        </a>
+                    </div>
+                </div>
+                   
+                <div class="col-5">
+                    <div class="search-header">
+                        <form class="input-search" method="get" action="">
+                            <div class="autocomplete">
+                                <input id="search-box" name="search" autocomplete="off" type="text" placeholder="Nhập từ khóa tìm kiếm">
+                                <button type="submit">
+                                    <i class="fa fa-search"></i> Tìm kiếm
+                                </button>
+                            </div>
+                        </form>
+                         
+                        <div class="tags">
+                            <strong>Từ khóa:</strong>
+                            <a>Samsung</a>
+                            <a>Iphone</a>
+                            <a>Oppo</a>
+                            <a>Huawei</a>
+                            <a>Mobi</a>
+                        </div>
+                    </div>
+                </div> 
+
+                    <div class="col-6 row">
+                        <div class="col-4 login">
+                            <a href="dangnhap.html">
+                                <i class="fa-solid fa-right-to-bracket"></i>
+                                <span>Đăng nhập</span>
+                            </a>
+                        </div>
+    
+                        <div class="col-4 register">
+                            <a href="dangky.html">
+                                <i class="fa-solid fa-registered"></i>
+                                <span>Đăng ký</span>
+                            </a>
+                        </div>
+                        
+                        <div class="col-4 cart">
+                            <a href="./giohang.html">
+                                <span class="cart-number">3</span>
+                                <i class="fa-solid fa-cart-shopping"></i>
+                                <span>Giỏ hàng</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        
+        <nav>
+            <ul class="menu_main">
+                <li>
+                    <a class="active" href="index.html">Trang chủ</a>
+                </li>
+                <li>
+                    <a href="">Sản phẩm</a>
+                    <div class="sub-menu">
+                        <ul>
+                            <li>
+                                <a href="">Iphone</a>
+                            </li>
+                            <li>
+                                <a href="./danhmucsanpham.html">Samsung</a>
+                            </li>
+                            <li>
+                                <a href="">Oppo</a>
+                            </li>
+                            <li>
+                                <a href="">Xiaomi</a>
+                            </li>
+                            <li>
+                                <a href="">Huawei</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <a href="">Tin tức</a>
+                    <div class="sub-menu">
+                        <ul>
+                            <li>
+                                <a href="">Tin tức điện thoại Iphone</a>
+                            </li>
+                            <li>
+                                <a href="">Tin tức điện thoại Samsung</a>
+                            </li>
+                            <li>
+                                <a href="">Tin tức điện thoại Oppo</a>
+                            </li>
+                            <li>
+                                <a href="">Tin tức điện thoại Xiaomi</a>
+                            </li>
+                            <li>
+                                <a href="">Tin tức điện thoại Huawei</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <a href="">Giới thiệu</a>
+                </li>
+                <li>
+                    <a href="">Liên hệ</a>
+                </li>
+                <li>
+                    <a href="">Tuyển dụng</a>
+                </li>
+                <li>
+                    <a href="">Bảo hành</a>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="slider">
+            <div class="slider-video">
+                <div class="item-video">
+                    <img src="./image/banners/banner1.png" width="100%">
+                </div>
+            </div> 
+    
+            <div class="slider-video">
+                 <div class="item-video">
+                    <img src="./image/banners/banner2.png" width="100%">
+                </div>
+            </div> 
+    
+            <div class="slider-video">
+                <div class="item-video">
+                    <img src="./image/banners/banner3.png" width="100%">
+                </div>
+            </div> 
+        </div>
+    
+        <main>
+            <div class="menu-left">
+                <div class="menu">
+                    <div class="title">
+                        Lọc theo thương hiệu
+                    </div>
+                    <ul>
+                        <li>
+                            <a href="">IPhone</a>
+                        </li>
+                        <li>
+                            <a href="">Samsung</a>
+                        </li>
+                        <li>
+                            <a href="">Oppo</a>
+                        </li>
+                        <li>
+                            <a href="">Xiaomi</a>
+                        </li>
+                        <li>
+                            <a href="">Huawei</a>
+                        </li>
+                    </ul>
+                </div>
+        
+                <div class="menu filter">
+                    <div class="title">
+                        Lọc theo mức giá
+                    </div>
+                    <ul>
+                        <li>
+                            <input type="checkbox" name="price" id="price_1">
+                            <label for="price_1"> 2.000.000đ - 6.000.000đ</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="price" id="price_2">
+                            <label for="price_2"> 6.000.000đ-10.000.000đ</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="price" id="price_3">
+                            <label for="price_3"> 10.000.000đ-14.000.000đ</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="price" id="price_4">
+                            <label for="price_4"> 14.000.000đ-18.000.000đ</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="price" id="price_5">
+                            <label for="price_5"> 18.000.000đ trở lên</label>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        
+            <div class="content-right">
+                <h1 class="category-name">Điện thoại Samsung</h1>
+                <div class="products">
+                    <div class="info">
+                        <a href="">
+                            <img src="./image/products/samsung-galaxy-a14-tlte-thumb-den-600x600.jpg">
+                        </a>
+                        <div class="desc">
+                            <h3 class="title">
+                                <a href="">Samsung Galaxy A14 </a>
+                            </h3>
+                            <div class="price">
+                                <strong>Giá: 4.990.000đ</strong>
+                            </div>
+                            <div class="ratingresult">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star">
+                                </i><span>4 đánh giá</span>
+                            </div>
+                            <div class="button">
+                                <button type="button">Mua hàng</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="info">
+                        <a href="">
+                            <img src="./image/products/samsung-galaxy-a24-black-thumb-600x600.jpg">
+                        </a>
+                        <div class="desc">
+                            <h3>
+                                <a href="">Samsung Galaxy A24</a>
+                            </h3>
+                            <div class="price">
+                                <strong>Giá: 6.490.000đ</strong>
+                            </div>
+                            <div class="ratingresult">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star">
+                                </i><span>4 đánh giá</span>
+                            </div>
+                            <div class="button">
+                                <button type="button">Mua hàng</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="info">
+                        <a href="">
+                            <img src="./image/products/Samsung-Galaxy-S21-FE-vang-1-2-600x600.jpg">
+                        </a>
+                        <div class="desc">
+                            <h3>
+                                <a href="">Samsung Galaxy S21 FE</a>
+                            </h3>
+                            <div class="price">
+                                <strong>Giá: 12.990.000đ</strong>
+                            </div>
+                            <div class="ratingresult">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star">
+                                </i><span>4 đánh giá</span>
+                            </div>
+                            <div class="button">
+                                <button type="button">Mua hàng</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="info">
+                        <a href="">
+                            <img src="./image/products/samsung-galaxy-s23-ultra-thumb-xanh-600x600.jpg">
+                        </a>
+                        <div class="desc">
+                            <h3 class="title">
+                                <a href="">Samsung Galaxy S23</a>
+                            </h3>
+                            <div class="price">
+                                <strong>Giá: 26.990.000đ</strong>
+                            </div>
+                            <div class="ratingresult">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star">
+                                </i><span>4 đánh giá</span>
+                            </div>
+                            <div class="button">
+                                <button type="button">Mua hàng</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="info">
+                        <a href="">
+                            <img src="./image/products/samsung-galaxy-a34-thumb-den-600x600.jpg">
+                        </a>
+                        <div class="desc">
+                            <h3>
+                                <a href="">Samsung Galaxy A34</a>
+                            </h3>
+                            <div class="price">
+                                <strong>Giá: 7.490.000đ</strong>
+                            </div>
+                            <div class="ratingresult">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star">
+                                </i><span>4 đánh giá</span>
+                            </div>
+                            <div class="button">
+                                <button type="button">Mua hàng</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="info">
+                        <a href="">
+                            <img src="./image/products/samsung-galaxy-s23-plus-600x600.jpg">
+                        </a>
+                        <div class="desc">
+                            <h3>
+                                <a href="">Samsung Galaxy S23</a>
+                            </h3>
+                            <div class="price">
+                                <strong>Giá: 23.990.000đ</strong>
+                            </div>
+                            <div class="ratingresult">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star">
+                                </i><span>4 đánh giá</span>
+                            </div>
+                            <div class="button">
+                                <button type="button">Mua hàng</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="info">
+                        <a href="">
+                            <img src="./image/products/samsung-galaxy-z-fold4-kem-256gb-600x600.jpg">
+                        </a>
+                        <div class="desc">
+                            <h3>
+                                <a href="">Samsung Galaxy ZFold4</a>
+                            </h3>
+                            <div class="price">
+                                <strong>Giá: 27.990.000đ</strong>
+                            </div>
+                            <div class="ratingresult">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star">
+                                </i><span>4 đánh giá</span>
+                            </div>
+                            <div class="button">
+                                <button type="button">Mua hàng</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="info">
+                        <a href="">
+                            <img src="./image/products/samsung-galaxy-a54-thumb-tim-600x600.jpg">
+                        </a>
+                        <div class="desc">
+                            <h3>
+                                <a href="">Samsung Galaxy A54</a>
+                            </h3>
+                            <div class="price">
+                                <strong>Giá: 9.490.000đ</strong>
+                            </div>
+                            <div class="ratingresult">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star">
+                                </i><span>4 đánh giá</span>
+                            </div>
+                            <div class="button">
+                                <button type="button">Mua hàng</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="info">
+                        <a href="">
+                            <img src="./image/products/samsung-galaxy-a23-cam-thumb-600x600.jpg">
+                        </a>
+                        <div class="desc">
+                            <h3 class="title">
+                                <a href="">Samsung Galaxy A23</a>
+                            </h3>
+                            <div class="price">
+                                <strong>Giá: 4.890.000đ</strong>
+                            </div>
+                            <div class="ratingresult">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star">
+                                </i><span>4 đánh giá</span>
+                            </div>
+                            <div class="button">
+                                <button type="button">Mua hàng</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            <div class="paginate">
+                <ul>
+                    <li>
+                        <i class="fa-solid fa-chevron-left"></i>
+                    </li>
+                    <li>
+                        <a href="">1</a>
+                    </li>
+                    <li>
+                        <a href="">2</a>
+                    </li>
+                    <li>
+                        <a href="">3</a>
+                    </li>
+                    <li>
+                        <a href="">4</a>
+                    </li>
+                    <li>
+                        <a href="">5</a>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </li>
+                </ul>
+            </div>
+        </main>
+
+        <footer>
+            <div class="about">
+                <h3 class="title">Về HT Shop</h3>
+                <div>
+                    <ul>
+                        <li>
+                            <a href="./index.html">HT Shop</a>
+                        </li>
+                        <li>
+                            <a href="">Giới thiệu</a>
+                        </li>
+                        <li>
+                            <a href="">Chính sách bảo mật</a>
+                        </li>
+                        <li>
+                            <a href="">Điều khoản sử dụng</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="about">
+                <h3 class="title">Hỗ trợ khách hàng</h3>
+                <div>
+                    <ul>
+                        <li>
+                            <a href="">Hotline miễn phí</a>
+                        </li>
+                        <li>
+                            <a href="">Tra cứu hóa đơn</a>
+                        </li>
+                        <li>
+                            <a href="">Mua & giao nhận online</a>
+                        </li>
+                        <li>
+                            <a href="">Quy định & hình thức thanh toán</a>
+                        </li>
+                        <li>
+                            <a href="">Bảo hành & bảo trì</a>
+                        </li>
+                        <li>
+                            <a href="">Đổi trả & hoàn tiền</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="about">
+                <h3 class="title">Đơn vị vận chuyển</h3>
+                <div>
+                    <ul>
+                        <li>
+                            <a href="">Ahamove</a>
+                        </li>
+                        <li>
+                            <a href="">Shoppee Express</a>
+                        </li>
+                        <li>
+                            <a href="">Grab Express</a>
+                        </li>
+                        <li>
+                            <a href="">Viettel Post</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="about">
+                <h3 class="title">Hình thức thanh toán</h3>
+                <div>
+                    <ul>
+                        <li>
+                            <a href="">Tiền mặt</a>
+                        </li>
+                        <li>
+                            <a href="">Thẻ ngân hàng</a>
+                        </li>
+                        <li>
+                            <a href="">Momo</a>
+                        </li>
+                        <li>
+                            <a href="">VNPay</a>
+                        </li>
+                        <li>
+                            <a href="">ZaloPay</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="about">
+                <h3 class="title">Địa chỉ</h3>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d119157.03841334587!2d105.63250829726562!3d21.046387999999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135abb158a2305d%3A0x5c357d21c785ea3d!2zVHLGsOG7nW5nIMSQ4bqhaSBo4buNYyDEkGnhu4duIEzhu7Fj!5e0!3m2!1svi!2s!4v1689510931670!5m2!1svi!2s" width="240" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div>
+                <a href="#top"><i class="fa-solid fa-arrow-up" id="goto-top-page"></i></a>
+            </div>    
+        </footer>
+        
+        
+        <script src="./slick/jquery-3.7.0.min.js"></script>
+        <script src="./slick/slick.min.js"></script>
+        <script src='./js/jquery-3.2.1.slim.min.js'></script>
+        <script src='./js/popper.min.js'></script>
+        <script src='./js/bootstrap.min.js'></script>
+        <script>
+            $(document).ready(function(){
+                $('.slider').slick({
+                    // tự động chạy 
+                    autoplay: true,
+                    // custom lại button next và prev 
+                    prevArrow: '<button type="button" class="slick-prev custom-prev"><i class="fa-solid fa-chevron-right"></i></button>',
+                    nextArrow: '<button type="button" class="slick-next custom-next"><i class="fa-solid fa-chevron-left"></i></button>',
+                    // số lượng slider trên 1 lần hiển thị 
+                    slidesToShow:2,
+                    // thời gian next sang  slider mới
+                    speed:500, 
+                    // next bao nhiêu slider 1 lần
+                    slidesToScroll:1
+                });
+            });
+        </script>
+    </div>
+</body>
+</html>
+
+<!-- <main>
+    <div class="menu-left">
+        <div class="menu">
+            <div class="title">
+                Lọc theo thương hiệu
+            </div>
+            <ul>
+                <li>
+                    <a href="">IPhone</a>
+                </li>
+                <li>
+                    <a href="">Samsung</a>
+                </li>
+                <li>
+                    <a href="">Oppo</a>
+                </li>
+                <li>
+                    <a href="">Xiaomi</a>
+                </li>
+                <li>
+                    <a href="">Huawei</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="menu filter">
+            <div class="title">
+                Lọc theo mức giá
+            </div>
+            <ul>
+                <li>
+                    <input type="checkbox" name="price" id="price_1">
+                    <label for="price_1"> 2.000.000đ - 6.000.000đ</label>
+                </li>
+                <li>
+                    <input type="checkbox" name="price" id="price_2">
+                    <label for="price_2"> 6.000.000đ-10.000.000đ</label>
+                </li>
+                <li>
+                    <input type="checkbox" name="price" id="price_3">
+                    <label for="price_3"> 10.000.000đ-14.000.000đ</label>
+                </li>
+                <li>
+                    <input type="checkbox" name="price" id="price_4">
+                    <label for="price_4"> 14.000.000đ-18.000.000đ</label>
+                </li>
+                <li>
+                    <input type="checkbox" name="price" id="price_5">
+                    <label for="price_5"> 18.000.000đ trở lên</label>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="content-right">
+        <h1 class="category-name">Điện thoại Samsung</h1>
+        <div class="products">
+            <div class="info">
+                <a href="">
+                    <img src="./image/products/samsung-galaxy-a14-tlte-thumb-den-600x600.jpg">
+                </a>
+                <div class="desc">
+                    <h3 class="title">
+                        <a href="">Samsung Galaxy A14 </a>
+                    </h3>
+                    <div class="price">
+                        <strong>Giá: 4.990.000đ</strong>
+                    </div>
+                    <div class="ratingresult">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star">
+                        </i><span>4 đánh giá</span>
+                    </div>
+                    <div class="button">
+                        <button type="button">Mua hàng</button>
+                    </div>
+                </div>
+            </div>
+            <div class="info">
+                <a href="">
+                    <img src="./image/products/samsung-galaxy-a24-black-thumb-600x600.jpg">
+                </a>
+                <div class="desc">
+                    <h3>
+                        <a href="">Samsung Galaxy A24</a>
+                    </h3>
+                    <div class="price">
+                        <strong>Giá: 6.490.000đ</strong>
+                    </div>
+                    <div class="ratingresult">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star">
+                        </i><span>4 đánh giá</span>
+                    </div>
+                    <div class="button">
+                        <button type="button">Mua hàng</button>
+                    </div>
+                </div>
+            </div>
+            <div class="info">
+                <a href="">
+                    <img src="./image/products/Samsung-Galaxy-S21-FE-vang-1-2-600x600.jpg">
+                </a>
+                <div class="desc">
+                    <h3>
+                        <a href="">Samsung Galaxy S21 FE</a>
+                    </h3>
+                    <div class="price">
+                        <strong>Giá: 12.990.000đ</strong>
+                    </div>
+                    <div class="ratingresult">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star">
+                        </i><span>4 đánh giá</span>
+                    </div>
+                    <div class="button">
+                        <button type="button">Mua hàng</button>
+                    </div>
+                </div>
+            </div>
+            <div class="info">
+                <a href="">
+                    <img src="./image/products/samsung-galaxy-s23-ultra-thumb-xanh-600x600.jpg">
+                </a>
+                <div class="desc">
+                    <h3 class="title">
+                        <a href="">Samsung Galaxy S23</a>
+                    </h3>
+                    <div class="price">
+                        <strong>Giá: 26.990.000đ</strong>
+                    </div>
+                    <div class="ratingresult">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star">
+                        </i><span>4 đánh giá</span>
+                    </div>
+                    <div class="button">
+                        <button type="button">Mua hàng</button>
+                    </div>
+                </div>
+            </div>
+            <div class="info">
+                <a href="">
+                    <img src="./image/products/samsung-galaxy-a34-thumb-den-600x600.jpg">
+                </a>
+                <div class="desc">
+                    <h3>
+                        <a href="">Samsung Galaxy A34</a>
+                    </h3>
+                    <div class="price">
+                        <strong>Giá: 7.490.000đ</strong>
+                    </div>
+                    <div class="ratingresult">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star">
+                        </i><span>4 đánh giá</span>
+                    </div>
+                    <div class="button">
+                        <button type="button">Mua hàng</button>
+                    </div>
+                </div>
+            </div>
+            <div class="info">
+                <a href="">
+                    <img src="./image/products/samsung-galaxy-s23-plus-600x600.jpg">
+                </a>
+                <div class="desc">
+                    <h3>
+                        <a href="">Samsung Galaxy S23</a>
+                    </h3>
+                    <div class="price">
+                        <strong>Giá: 23.990.000đ</strong>
+                    </div>
+                    <div class="ratingresult">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star">
+                        </i><span>4 đánh giá</span>
+                    </div>
+                    <div class="button">
+                        <button type="button">Mua hàng</button>
+                    </div>
+                </div>
+            </div>
+            <div class="info">
+                <a href="">
+                    <img src="./image/products/samsung-galaxy-z-fold4-kem-256gb-600x600.jpg">
+                </a>
+                <div class="desc">
+                    <h3>
+                        <a href="">Samsung Galaxy ZFold4</a>
+                    </h3>
+                    <div class="price">
+                        <strong>Giá: 27.990.000đ</strong>
+                    </div>
+                    <div class="ratingresult">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star">
+                        </i><span>4 đánh giá</span>
+                    </div>
+                    <div class="button">
+                        <button type="button">Mua hàng</button>
+                    </div>
+                </div>
+            </div>
+            <div class="info">
+                <a href="">
+                    <img src="./image/products/samsung-galaxy-a54-thumb-tim-600x600.jpg">
+                </a>
+                <div class="desc">
+                    <h3>
+                        <a href="">Samsung Galaxy A54</a>
+                    </h3>
+                    <div class="price">
+                        <strong>Giá: 9.490.000đ</strong>
+                    </div>
+                    <div class="ratingresult">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star">
+                        </i><span>4 đánh giá</span>
+                    </div>
+                    <div class="button">
+                        <button type="button">Mua hàng</button>
+                    </div>
+                </div>
+            </div>
+            <div class="info">
+                <a href="">
+                    <img src="./image/products/samsung-galaxy-a23-cam-thumb-600x600.jpg">
+                </a>
+                <div class="desc">
+                    <h3 class="title">
+                        <a href="">Samsung Galaxy A23</a>
+                    </h3>
+                    <div class="price">
+                        <strong>Giá: 4.890.000đ</strong>
+                    </div>
+                    <div class="ratingresult">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star">
+                        </i><span>4 đánh giá</span>
+                    </div>
+                    <div class="button">
+                        <button type="button">Mua hàng</button>
+                    </div>
+                </div>
+            </div>
+        </div>  -->
